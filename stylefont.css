@@ -1,0 +1,193 @@
+
+*{
+	margin: 100;
+	padding: 100;
+
+}
+
+.Newfont
+{
+	font-family: 'Cormorant Garamond', serif;	  
+	font-variant: small-caps;					
+	font-size: 3em ; 							 
+	font-style : italic ;
+	color:orange;
+	padding: 20px;
+	border-radius: 20px;border: green solid 5px; 
+	height: 200px; width: 500px;
+	margin-left:  20px; background-color: purple;
+}
+/*range = 100 to 900 
+Bold italics underline
+
+small caps effect create karta hai 
+google fonts ke link pe milega ye
+*/
+.Textcss{
+font-family: 'Cormorant Garamond', serif;
+color: red ;
+letter-spacing : 1px;
+word-spacing: 5px;
+direction: rtl;
+text-indent: 0px; 
+font-size: 3em ;
+text-align: center;
+text-transform: uppercase;
+/*letter spacing : space between individual letters  eg l e t t
+word spacing : space between 2 words 
+direction : left 2 right ya fir right to left 
+text indent : used for new paragraphs 
+text align : left right ya center 
+transform : uppercase ya lowercase mai convert*/
+}
+
+a:link {color: red;}
+a:visited {color: green;}
+a:hover {color: yellow;}
+a:active {color: blue;}
+
+.Red {
+	font-size: 3em;
+	text-align: center;
+
+}
+
+.bordercss {
+	width: 500px;
+	height: 300px;
+	background-color : red;
+	/*border-width: 5px;
+	border-color: black;
+	border-style: solid;
+	ye teen properties ko ek line mai bhi likh sakte hai 
+*/
+
+	border: 5px black solid;
+	border-radius: 50px;
+}
+
+.List 
+{
+	font-size: 2em;
+	color: red;
+	background-image: url(801.png);
+	letter-spacing: 1px;
+}
+
+ul {
+	list-style-type: square;
+}
+
+ol {
+	list-style-type: lower-alpha;
+
+	
+}
+
+
+
+p{	font-size: 2em;
+	width: 600px;
+	height: 200px;
+	border : 3px solid red;
+	overflow: auto;
+	
+	/*overflow:hidden,scroll;*/
+}
+
+.boxmodel{
+	width: 500px;
+	height: 400px;
+	background-color: red ;
+	padding-left: 20px;
+	padding-top: 10px;
+	font-style: italic;
+	font-weight: 200;
+
+
+}
+
+input {
+	/*padding-left: 20px ;
+	padding-right: 20px;
+	padding-top: 20px ;*/
+	padding:10px;
+	/*harr jagah se padding lagana hai to sirf padding likh aur value de 
+	eg. padding : 5px 5px 5px 5px ; TRBL
+	eg . padding : 5px ;*/	
+	margin: 10px;
+	font: italic large  12px/30px Georgia, serif ;
+	/*margin aur padding same hai padding input field ke andar lagta hai . 
+	margin border aur input field ke bich mai lagta hai.
+*/
+}
+
+
+.father { 
+	margin :10px 0px 0px 10px;
+	width: 400px;
+	height: 400px;
+	background-color: red;
+	position: relative;
+
+}
+.child1 { color: white ;
+	width: 100px;
+	height: 70px;
+	background-color: green; 
+	position: absolute;
+	left  :0;
+}
+.child2 { color: black;
+	width: 100px;
+	height: 70px;
+	background-color: orange;
+	position: absolute;
+	right :0;
+}
+.child3 { color :black;
+	width: 100px;
+	height: 70px;
+	background-color: blue;
+	position: absolute;
+	bottom:0;
+}
+.child4	{ color: white ;
+	width: 100px;
+	height: 70px;
+	background-color: black;
+	position: absolute;
+	bottom: 0 ;
+	right: 0 ;
+}
+
+.header { 
+	width :100% ;
+	height :100px ;
+	background-color: red;
+}
+.logo { font-size:2em ; 
+	width: 30% ;
+	line-height: 100px;
+	background-color:  green; 
+	text-align: center ;
+	float: left;
+
+}
+
+.menu { font-size:2em ; 
+	width: 70% ;
+	line-height: 100px;
+	background-color: orange;
+	float: right;
+	text-align: right;
+
+}
+.dragon 
+	{ font-size: 2em ;
+	width: 100% ;
+	line-height: 100px;
+	background-color: black ;
+	text-align: center;
+	color: red;
+}
